@@ -1,0 +1,52 @@
+header {
+  top: 100px;
+  width: 400px;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 30px;
+  background-color: aliceblue;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  h2 {
+    margin: 10px;
+    padding: 20px;
+    color: rgb(107, 107, 107);
+    font-size: 19.5px;
+    line-height: 2rem;
+
+    @include TextStyle;
+  }
+  h3 {
+    left: 31%;
+    color: azure;
+    margin: 10px;
+    font-size: 18px;
+    position: relative;
+    letter-spacing: 4px;
+  }
+  p {
+    left: 30%;
+    color: grey;
+    margin: 10px;
+    font-size: 16px;
+    position: relative;
+  }
+  .container-one-two img {
+    left: 100px;
+    margin: 20px;
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    position: relative;
+    border-radius: 50%;
+    border: 8px solid rgb(255, 255, 255);
+  }
+  .kleur {
+    top: 66%;
+    width: 400px;
+    height: 30vh;
+    @include Absolute();
+    @include BorderRadius();
+    background-color: #686de0;
+  }
+}

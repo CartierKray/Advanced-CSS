@@ -1,0 +1,36 @@
+$px: 30px;
+$Color: lime;
+
+@mixin FontWeight {
+  font-weight: bolder;
+}
+@mixin Relative {
+  position: relative;
+}
+@mixin Absolute {
+  position: absolute;
+}
+@mixin BorderRadius {
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+@mixin TextStyle {
+  font-family: "Fasthand", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+}
+@mixin Shadow {
+  box-shadow: 0px 8px 22px 8px rgba(106, 105, 105, 0.75);
+}
+
+@mixin Social {
+  width: 300px;
+  padding: 20px;
+  color: #fff;
+  transition: 1s;
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: right;
+  transition-property: transform;
+}

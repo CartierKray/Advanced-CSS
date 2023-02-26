@@ -1,0 +1,111 @@
+footer .container-three h2 {
+  display: flex;
+  color: $Color;
+  margin: 25px;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  width: auto;
+}
+footer .container-three h2:hover {
+  color: rgb(0, 140, 255);
+}
+
+.social {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translate(-288px, 0);
+}
+
+.social .blog a {
+  @include Social;
+  background-color: #e17b77;
+}
+
+.social .facebook a {
+  @include Social;
+  background-color: #3b5998;
+}
+
+.social .twitter a {
+  @include Social;
+  background-color: #00aced;
+}
+
+.social .github a {
+  @include Social;
+  background-color: #333;
+}
+
+.social .linkedin a {
+  @include Social;
+  background-color: #007bb6;
+}
+
+.social a:hover {
+  transform: translate(170px, 0);
+}
+
+.social i {
+  margin-left: 10px;
+  font-size: $px;
+  width: $px;
+  height: $px;
+}
+
+.social .blog a i {
+  color: #fff;
+}
+
+.social .twitter a i {
+  color: #fff;
+}
+
+.social .linkedin a i {
+  color: #fff;
+}
+
+.social .facebook a i {
+  color: #fff;
+}
+
+.social .github a i {
+  color: #fff;
+}
+
+/*
+@media screen and (min-width: 500px) {
+  .social {
+    transform: translate(-335px, 0);
+  }
+}
+@media screen and (min-width: 700px) {
+  .social {
+    transform: translate(-435px, 0);
+  }
+}
+@media screen and (min-width: 850px) {
+  .social {
+    transform: translate(-509px, 0);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .social {
+    transform: translate(-590px, 0);
+  }
+}
+@media screen and (min-width: 1124px) {
+  .social {
+    transform: translate(-645px, 0);
+  }
+}
+
+@media screen and (min-width: 1324px) {
+  .social {
+    transform: translate(-745px, 0);
+  }
+}
+*/
